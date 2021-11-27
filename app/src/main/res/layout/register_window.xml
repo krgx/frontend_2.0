@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <me.zhanghai.android.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:hint="Введите свою почту"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColor="@color/purple_500"
+            android:textColorHint="@color/purple_200"
+            android:textSize="25sp"
+
+            app:met_floatingLabel="highlights"
+            app:met_singleLineEllipse="true"
+            />
+        <me.zhanghai.android.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:hint="Введите свой пароль"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColor="@color/purple_500"
+            android:textColorHint="@color/purple_200"
+            android:textSize="25sp"
+
+            app:met_floatingLabel="highlights"
+            app:met_singleLineEllipse="true"
+            />
+        <me.zhanghai.android.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:hint="Введите свой ник"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/purple_500"
+            android:textColorHint="@color/purple_200"
+            android:textSize="25sp"
+
+            app:met_floatingLabel="highlights"
+            app:met_singleLineEllipse="true"
+            />
+        <me.zhanghai.android.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone"
+            android:hint="Введите свой телефон"
+            android:inputType="phone"
+            android:text=""
+            android:textColor="@color/purple_500"
+            android:textColorHint="@color/purple_200"
+            android:textSize="25sp"
+
+            app:met_floatingLabel="highlights"
+            app:met_singleLineEllipse="true"
+            />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
