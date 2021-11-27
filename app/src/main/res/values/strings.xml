@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">frontend</string>
+    <string name="app_in">Добро пожаловать!</string>
+    <string name="app_in_reg">Войдите или зарегистрируйтесь</string>
+    <string name="bottom_text">Войдите в свою учетную запись</string>
+    <string name="SignIn">Войти</string>
+    <string name="Register">Зарегистрироваться</string>
+</resources>
